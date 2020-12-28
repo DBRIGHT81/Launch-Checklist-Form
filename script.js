@@ -13,7 +13,8 @@ window.addEventListener("load", function(){
          alert("All fields are required!");
       }
       if(fuelLevelInput < 10000){
-         alert("There is not enough fuel for the journey!");
+         alert("There is not enough fuel for the journey!")
+      } else if(fuelLevelInput < 10000){
          
       }
    })
