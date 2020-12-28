@@ -12,6 +12,10 @@ window.addEventListener("load", function(){
       if(isNaN(fuelLevelInput.value) || isNaN(cargoMassInput.value)){
          alert("All fields are required!");
       }
+      if(fuelLevelInput < 10000){
+         alert("There is not enough fuel for the journey!");
+         
+      }
    })
 })
 /* This block of code shows how to format the HTML once you fetch some planetary JSON!
